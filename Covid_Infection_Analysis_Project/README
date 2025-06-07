@@ -1,0 +1,58 @@
+# 🌍 COVID-19 Global Data Analysis – SQL & Tableau Project
+
+## 📌 Project Overview
+
+This project explores global COVID-19 data using SQL to analyze infection and death rates, vaccine rollout, and trends by country and continent. The final results were visualized in Tableau for effective communication of key patterns. The goal was to derive insights that demonstrate fluency in SQL querying, data cleaning, aggregations, CTEs, window functions, temp tables, and view creation.
+
+## 🛠 Tools Used
+
+* Microsoft SQL Server
+* Tableau Public
+* Excel (data cleaning and staging)
+* GitHub
+
+## 📊 Key Business Questions Answered
+
+* What percentage of the population was infected in each country?
+* What is the death rate among infected individuals by country and globally?
+* Which countries and continents had the highest death tolls?
+* What is the vaccine rollout progress in different regions?
+* How do infections and vaccinations trend over time globally?
+
+## 🔍 Analytical Techniques
+
+* Filtering and aggregating large datasets
+* Creating calculated metrics (e.g., death percentage, infection rate)
+* Using CTEs for complex data organization
+* Temp tables to store intermediate results
+* Window functions for rolling vaccination totals
+* SQL Views for downstream visualizations
+
+## 📈 Dashboard Visualization
+
+A Tableau dashboard was created to visualize:
+
+* Total infections and deaths by country
+* Infection rate as a % of population
+* Global and continental vaccine rollout trends
+
+👉 **[View Tableau Dashboard](https://public.tableau.com/app/profile/mike.bruno4206/viz/CovidInfectionAnalysisDashboard_17472903783930/Dashboard1)**
+
+## 📂 File Structure
+
+* `Covid_Exploration_SQL.sql` – all SQL queries used for the project
+* `dashboard_screenshot.png` – preview of Tableau dashboard (optional)
+* `README.md` – this document
+
+## ✅ Key Insights
+
+* The U.S. had one of the highest total death counts.
+* Some small countries had infection rates >25% of the population.
+* Vaccination rates varied greatly across continents.
+* Using SQL views and CTEs streamlined data for visualization in Tableau.
+
+## 🧠 Lessons Learned
+
+* Deepened understanding of subqueries, CTEs, and joins.
+* Practiced creating scalable queries using window functions and temp tables.
+* Gained experience building end-to-end analysis pipelines from raw data to dashboard.
