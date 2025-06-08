@@ -41,7 +41,6 @@ A Tableau dashboard was created to visualize:
 ## 📂 File Structure
 
 * `Covid_Exploration_SQL.sql` – all SQL queries used for the project
-* `dashboard_screenshot.png` – preview of Tableau dashboard (optional)
 * `README.md` – this document
 
 ## ✅ Key Insights
