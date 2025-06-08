@@ -1,0 +1,61 @@
+# 🏡 Nashville Housing Data Cleaning Project – SQL
+
+## 📆 Project Overview
+
+This project focuses on cleaning and preparing raw housing data from Nashville for analysis using SQL. The dataset required a variety of transformations to improve data consistency, structure, and usability. The aim was to simulate real-world data cleaning tasks that are essential before any meaningful analysis can take place.
+
+## 🛠 Tools Used
+
+* Microsoft SQL Server
+* Excel (initial data exploration)
+* GitHub
+
+## 🔍 Data Cleaning Steps
+
+* **Converted date fields** to proper date format
+* **Filled in missing property addresses** by joining on `ParcelID`
+* **Split addresses** into individual fields (Address, City, State)
+* **Normalized categorical values** (e.g. 'Y' to 'Yes', 'N' to 'No')
+* **Removed duplicates** using `ROW_NUMBER()` window function
+* **Dropped irrelevant or redundant columns** for cleaner schema
+
+## ✅ Key Transformations
+
+* Used `SUBSTRING()` and `CHARINDEX()` to split `PropertyAddress`
+* Used `PARSENAME()` with `REPLACE()` to parse `OwnerAddress`
+* Applied `UPDATE` with `CASE` for standardizing boolean values
+* Created a `RowNumCTE` to identify and remove duplicate records
+
+## 📊 Sample Queries
+
+```sql
+-- Remove Duplicates
+WITH RowNumCTE AS (
+  SELECT *,
+         ROW_NUMBER() OVER(PARTITION BY ParcelID, PropertyAddress, SalePrice, SaleDate, LegalReference ORDER BY UniqueID) row_num
+  FROM Nashville_Housing
+)
+SELECT *
+FROM RowNumCTE
+WHERE row_num > 1;
+```
+
+## 🏛 Real-World Value
+
+This cleaning pipeline is representative of data engineering and data analyst workflows. Clean, normalized data is crucial before performing any analysis or creating dashboards. The cleaned dataset is now ready for visualization and statistical modeling.
+
+## 🧠 Lessons Learned
+
+* Deepened SQL skills related to data wrangling and transformation
+* Gained experience with string manipulation and conditional updates
+* Practiced removing duplicates in a scalable and controlled way
+* Understood importance of preparing consistent and reliable data sources
+
+## 📚 File Structure
+
+* `Nashville_Housing_Cleaning.sql` – full SQL code for all cleaning steps
+* `README.md` – this document
+
+---
+
+This project reflects one of the most critical but often invisible parts of a data analyst's job: ensuring data quality and readiness before any insights can be trusted or shared.
