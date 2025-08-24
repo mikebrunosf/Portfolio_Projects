@@ -1,0 +1,7 @@
+- [Top Streaming Tracks Across Platforms](https://public.tableau.com/app/profile/mike.bruno4206/viz/TopStreamedSongs2024/Top100StreamingArtists)
+
+Project: Global Music Streaming Dashboard
+
+This project explores the most streamed songs and artists across major platforms including Spotify, YouTube, TikTok, Pandora, and SoundCloud. Using a dataset of hundreds of thousands of tracks,
+I cleaned and prepared the data in Google Sheets, then built interactive Tableau dashboards to visualize platform-specific top 100 charts, compare artist performance, and highlight the tracks
+with the largest cross-platform reach. The goal was to create a clear, interactive view of how music performs differently depending on the platform.
