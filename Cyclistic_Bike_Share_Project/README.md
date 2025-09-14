@@ -1,6 +1,6 @@
 # Cyclistic Case Study – Bike Share Usage Analysis
 
-## 🚀 Executive Summary
+## Executive Summary
 This project analyzes **5.5 million rides** from Chicago’s Cyclistic bike-share program (Sept 2024 – Aug 2025).  
 Using **SQL Server** for cleaning and analysis and **Tableau Public** for visualization, I compared usage patterns between **annual members** and **casual riders**.  
 Key insights show that **members dominate weekday commuting**, while **casual riders take longer leisure rides on weekends**.  
@@ -114,5 +114,6 @@ Contains:
 4. Emphasize **cost and time savings** in membership marketing.  
 
 ---
+
 
 
