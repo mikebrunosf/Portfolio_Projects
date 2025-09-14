@@ -33,7 +33,7 @@ This project explores global COVID-19 data using SQL to analyze infection and de
 A Tableau dashboard was created to visualize:
 
 * Total infections and deaths by country
-* Infection rate as a % of population(https://public.tableau.com/app/profile/mike.bruno4206/viz/CovidInfectionAnalysisDashboard_17472903783930/Dashboard1)**
+* Infection rate as a % of population (https://public.tableau.com/app/profile/mike.bruno4206/viz/CovidInfectionAnalysisDashboard_17472903783930/Dashboard1)
 
 ## 📂 File Structure
 
