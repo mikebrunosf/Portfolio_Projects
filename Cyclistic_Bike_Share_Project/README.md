@@ -70,7 +70,7 @@ Updated as datasets were ingested.
 - Ride frequency by month  
 - Ride frequency by day of week  
 - Ride frequency by hour of day  
-- Bike type usage split (classic / electric / docked)  
+- Bike type usage split (classic / electric / scooter)  
 
 ---
 
@@ -114,6 +114,7 @@ Contains:
 4. Emphasize **cost and time savings** in membership marketing.  
 
 ---
+
 
 
 
