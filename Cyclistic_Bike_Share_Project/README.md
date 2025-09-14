@@ -66,8 +66,7 @@ Updated as datasets were ingested.
 
 ## 8. Target Metrics (Members vs Casuals)
 - Total rides (overall + by user type)  
-- Average ride length  
-- Median ride length  
+- Average ride length   
 - Ride frequency by month  
 - Ride frequency by day of week  
 - Ride frequency by hour of day  
@@ -76,9 +75,8 @@ Updated as datasets were ingested.
 ---
 
 ## 9. Planned Visuals
-- **Donut chart** – member vs casual split  
-- **Bar chart** – average ride length comparison  
-- **Line chart** – monthly trends  
+- **Pie chart** – member vs casual split  
+- **Bar chart** – monthly trends  
 - **Bar chart** – day of week usage  
 - **Line chart** – hourly ride patterns  
 - **Stacked bar chart** – bike type breakdown  
@@ -116,4 +114,5 @@ Contains:
 4. Emphasize **cost and time savings** in membership marketing.  
 
 ---
+
 
